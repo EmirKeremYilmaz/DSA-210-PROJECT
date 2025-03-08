@@ -30,5 +30,5 @@ Visualization Methods: Line graphs for meal frequency and sleep trends over time
 Changes in Eating Habits During Exams: More frequent meal skipping or irregular eating schedules. Higher intake of unhealthy snacks and processed foods. Increased caffeine consumption (coffee, energy drinks).
 Changes in Sleep Patterns During Exams: Reduced total sleep duration. More frequent sleep interruptions. Later bedtimes due to late-night studying. Potential Links Between Eating Habits and Sleep:Increased caffeine and sugar intake leading to poor sleep. Skipping meals causing late-night hunger, disrupting sleep. Poor sleep affecting food choices (more cravings for junk food). Personal insights on managing food and sleep habits during stressful periods.Strategies for meal planning during exams. Setting sleep routines to improve academic performance
 
-IMPLEMENTATION STEPS
+# IMPLEMENTATION STEPS
 Collect and preprocess eating and sleep data over multiple weeks. Mark exam periods using my academic calendar. Perform EDA and statistical analysis to explore relationships between food intake and sleep quality. Create visuals using Matplotlib and Seaborn. Summarize key findings and recommendations in a final report.
