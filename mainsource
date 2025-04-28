@@ -1,0 +1,22 @@
+So first,in these code blocks, my aim is to investigate my exam periods.In these exam periods,how many calories i take, is there a unhealthy meals, increament for caffeine intake and what is my sleep pattern looks like are the main focus of mine.By looking at these ı want to state the hypothesis to start this investigation:
+My hypothesis is that during exam periods, my eating habits are deteriorating based on calorie intake and junk foods i ate and my sleep pattern is totally deteriorating based on the quality and duration.
+Firstly, ı will load the eating and sleep tracking data collected using mobile apps during my study period.
+
+import pandas as pd
+
+# Load the data
+eating_exam = pd.read_csv('eating_data.csv')
+sleep_exam = pd.read_csv('sleep_data.csv')
+
+eating_normal = pd.read_csv('eating_data_hypothesis.csv')
+sleep_normal = pd.read_csv('sleep_data_hypothesis.csv')
+
+# Convert the Date columns to datetime type
+eating_exam['Date'] = pd.to_datetime(eating_exam['Date'])
+sleep_exam['Date'] = pd.to_datetime(sleep_exam['Date'])
+eating_normal['Date'] = pd.to_datetime(eating_normal['Date'])
+sleep_normal['Date'] = pd.to_datetime(sleep_normal['Date'])
+
+# View first few lines
+print(eating_exam.head())
+print(sleep_exam.head())
